@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+img{
+    float: left;
+  }
+  body{
+    background-color: rgb(57,57,57);
+  }
+
+  nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(57,57,57);
+  }
+  p {
+    color: whitesmoke
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 22px;
+    font-style: Georgia;
+    padding: 30px 100px;
+    text-decoration:none;
+  }
+  li {
+    float: left;
+    border-right:2px solid #ffffff;
+  }
+  
+  li:last-child {
+    border-right: 2px solid #ffffff;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+    background-color:rgb(105, 105, 105);
+  }
+  header{
+    background-color:rgb(57,57,57);
+  }
+  footer{
+    background-color:rgb(57,57,57);
+    padding: 10px;
+    font-style:  Arial, sans-serif;
+    color:whitesmoke
+  }
+  a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #696969;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #575757;
+}
+h2{
+    color: whitesmoke
+}
+label{
+    color: whitesmoke;
+}
+.user-message-success {
+  border: 2px solid whitesmoke; 
+  background-color: rgb(57,57,57); 
+  padding: 20px; 
+  text-align: center; 
+  margin: 20px; 
+}
+.user-message-fail{
+  border: 2px solid whitesmoke; 
+  background-color: rgb(57,57,57); 
+  padding: 20px; 
+  text-align: center; 
+  margin: 20px; 
+}
+
+  .password-container {
+    position: relative;
+}
+
+.password {
+    padding-right: 30px; 
+}
+
+.show-hide-btn {
+    position: absolute;
+    right: 5px; 
+    top: 72%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

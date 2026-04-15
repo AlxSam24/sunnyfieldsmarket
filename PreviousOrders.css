@@ -1,0 +1,137 @@
+img{
+    float: left;
+  }
+  body{
+    background-color: rgb(57,57,57);
+    font-style: Arial, sans-serif;
+    color:whitesmoke
+  }
+  
+  nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(57,57,57);
+  }
+  
+  li {
+    float: left;
+  }
+  mark{
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 22px;
+    font-style: Georgia;
+    padding: 30px 100px;
+    text-decoration:none;
+  }
+  li {
+    float: left;
+    border-right:2px solid #ffffff;
+  }
+  
+  li:last-child {
+    border-right: 2px solid #ffffff;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+    background-color:rgb(105, 105, 105);
+  }
+  header{
+    background-color:rgb(57,57,57);
+  }
+  footer{
+    background-color:rgb(57,57,57);
+    padding: 10px;
+    font-style:  Arial, sans-serif;
+    color:whitesmoke
+  }
+  a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .text-only-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .text-only-nav li {
+    border:none;
+    display: inline;
+  
+  }
+  .text-only-nav a{
+    border:none;
+    display: inline;
+    font-family:Arial, sans-serif ;
+    font-size: 16px;
+    margin-left: 2900px;
+    padding:0px;
+  }
+  .text-only-nav li a:hover{
+  text-decoration: none;
+  background-color: transparent;
+  }
+  .hero-image {
+    background: url(Background.jpg)no-repeat center; 
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: Arial, sans-serif;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: rgb(57,57,57);
+}
+.detail-btn{
+  background-color:rgb(73, 70, 70);
+  color:whitesmoke
+}
